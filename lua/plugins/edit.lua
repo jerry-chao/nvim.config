@@ -190,6 +190,4 @@ return {
       end)
     end,
   },
-
-  { "wakatime/vim-wakatime", lazy = false },
 }

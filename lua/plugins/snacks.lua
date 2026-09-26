@@ -28,6 +28,8 @@ return {
         scope = {
           enabled = true, -- enable highlighting the current scope
           underline = true, -- underline the start of the scope
+          -- nvim-0.12 止血: 若更新 parser 前仍崩溃, 取消注释下一行走 indent 回退
+          -- treesitter = { enabled = false },
         },
         chunk = {
           -- when enabled, scopes will be rendered as chunks, except for the top-level scope which will be rendered as a scope.
